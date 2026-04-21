@@ -14,6 +14,7 @@ public class Tree extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+        turn(80);
+        setLocation(getX() + 5, getY());
     }
 }
