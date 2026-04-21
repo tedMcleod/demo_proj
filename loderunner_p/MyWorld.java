@@ -14,14 +14,5 @@ public class MyWorld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
         System.out.println("hi");
-
-        for (int i = 0; i < 4; i++) {
-            Tree t = new Tree();
-            addObject(t, i + 50, i + 20);
-        }
-
-        Tree t = new Tree();
-        addObject(t, 50, 70);
-
     }
 }

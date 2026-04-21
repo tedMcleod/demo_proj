@@ -16,9 +16,5 @@ public class Tree extends Actor
     {
         turn(80);
         setLocation(getX() + 5, getY());
-
-        // Add your action code here.
-        move(1);
-        setImage("badimage.png");
     }
 }
