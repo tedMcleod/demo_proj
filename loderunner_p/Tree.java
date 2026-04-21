@@ -15,5 +15,7 @@ public class Tree extends Actor
     public void act()
     {
         // Add your action code here.
+        move(1);
+        setImage("badimage.png");
     }
 }
